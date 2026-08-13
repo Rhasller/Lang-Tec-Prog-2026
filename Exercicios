@@ -14,7 +14,7 @@ printf("Aluno: Rhasller Meneghetti\n RA:26011692-2\n");
 		printf("Digite o segundo valor: ");
 		scanf("%d", &segundo);
 		
-/*para manipular a memória/quardar um espaço: usamos o aux*/
+/*para manipular a memÃ³ria/quardar um espaÃ§o: usamos o aux*/
 	
 	aux = primeiro;
 	primeiro = segundo;
