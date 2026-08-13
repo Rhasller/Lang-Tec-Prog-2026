@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	
+printf("Aluno: Rhasller Meneghetti\n RA:26011692-2\n");	
+
+	printf("Exercicio 1:\n");
+	
+	int primeiro,segundo,aux;
+	
+	printf("Digite o primeiro valor: ");
+		scanf("%d", &primeiro);
+		printf("Digite o segundo valor: ");
+		scanf("%d", &segundo);
+		
+/*para manipular a memória/quardar um espaço: usamos o aux*/
+	
+	aux = primeiro;
+	primeiro = segundo;
+	segundo = aux;
+	
+	printf("%d \n %d", primeiro, segundo);
+	
+	printf("\n____________________\n");
+	
+	/*FINAL EX: 1*/
+	
+		printf("Exercicio 2:\n");
+		
+	
+		
+	
+		
+		
+		
+		
+		
+		
+		
+	
+return 0;
+}
