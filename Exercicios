@@ -66,11 +66,28 @@ printf("Aluno: Rhasller Meneghetti\n RA:26011692-2\n");
 	res = res/2;
 	
 	printf ("O numero %d em bin = %d%d%d%d%d%d%d", n, res%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
+
+printf("\n____________________\n");
+
+printf("Exercício 8");
 	
+	int x1, x2, y1, y2, p1, p2;
+	float dis;
 	
+	printf("Insira o valor do par ordenado (x1,y1): ");
+	scanf ("%d",&x1);
+	scanf ("%d",&y1);	
 	
-	return 0;
-}
+	printf("Insira o valor do par ordenado (x2,y2): ");
+	scanf ("%d",&x2);
+	scanf ("%d",&y2);
+	
+	p1 = pow(x2-x1,2);
+	p2 = pow(y2-y1,2);
+	
+	dis = sqrt(p1+p2);
+	
+	printf("A distancia entre p1 e p2 = %f", dis);
 	
 return 0;
 }
