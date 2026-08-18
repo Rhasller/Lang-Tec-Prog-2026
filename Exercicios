@@ -37,7 +37,40 @@ printf("Aluno: Rhasller Meneghetti\n RA:26011692-2\n");
 		
 		
 		
-		
+		printf("\n____________________\n");
+
+	printf("Exercício 3")
+	
+	int bit_64, bit_32, bit_16, bit_8, bit_4, bit_2;
+	int n, res;
+	printf("Insira o valor a ser convertido: ");
+	
+	scanf ("%d",&n);// 41
+	
+	bit_64 = n%2;// 1
+	res = n/2;//20
+	
+	bit_32 = res%2;//0
+	res = res/2;// 20
+	
+	bit_16 = res%2;
+	res = res/2;
+	
+	bit_8 = res%2;
+	res = res/2;
+	
+	bit_4 = res%2;
+	res = res/2;
+	
+	bit_2 = res%2;
+	res = res/2;
+	
+	printf ("O numero %d em bin = %d%d%d%d%d%d%d", n, res%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
+	
+	
+	
+	return 0;
+}
 	
 return 0;
 }
